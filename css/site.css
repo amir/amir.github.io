@@ -1,0 +1,66 @@
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: white;
+}
+header#sidebar {
+  margin-left: 0;
+  padding-left: 2%;
+  position: absolute;
+  width: 27%;
+  min-height: 100%;
+  min-width: 240px;
+}
+::selection {
+  background: #2755A1;
+  color: white;
+  text-shadow: none;
+}
+h1,h2 {
+  color: #222;
+}
+article.post {
+  min-height: 13px;
+}
+article.post h2 {
+  font-size: 48px;
+  margin-top: 1em;
+  line-height: 1.1em;
+}
+article.post h2 a {
+  border: none;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  font-weight: 900;
+}
+article div.post-date {
+  margin-bottom: 1em;
+  font-size: 14px;
+  font-style: italic;
+}
+article p {
+  line-height: 1.5em;
+  color: #444;
+  font-size: 18px;
+  margin: 25px 0 25px 0;
+}
+section#content {
+  width: 650px;
+  margin: 48px auto;
+  padding: 0;
+}
+article a:link, article a:visited, article a:hover, article a:active {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #CCC;
+}
+article.post code {
+  font-family: 'Ubuntu Mono', 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', 'Courier New';
+  font-size: 0.9em;
+}
+ul#user_meta a {
+  text-decoration: none;
+  color: #999;
+  line-height: 1.5em;
+}
