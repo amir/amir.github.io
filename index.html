@@ -3,11 +3,7 @@ layout: default
 title: amir
 ---
 {% for post in site.posts %}
-<article class="post">
-  <h2 class="post-title">
-    <a href="{{site.url}}{{post.url}}">{{ post.title }}</a>
-  </h2>
-  <div class="post-date">{{ post.date | date_to_string }}</div>
-  {{ post.content }}
-</article>
+<h2 class="post-title">
+  <span class="post-date">{{ post.date | date_to_string }}</span> <a href="{{site.url}}{{post.url}}">{{ post.title }}</a>
+</h2>
 {% endfor %}
