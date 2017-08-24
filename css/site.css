@@ -59,6 +59,9 @@ article.post code {
   font-family: 'Ubuntu Mono', 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', 'Courier New';
   font-size: 0.9em;
 }
+article.post ul {
+  list-style-type: circle;
+}
 ul#user_meta a {
   text-decoration: none;
   color: #999;
