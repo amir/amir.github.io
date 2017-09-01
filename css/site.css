@@ -46,7 +46,8 @@ article p {
   margin: 25px 0 25px 0;
 }
 section#content {
-  width: 650px;
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin: 48px auto;
   padding: 0;
 }
