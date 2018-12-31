@@ -2,6 +2,7 @@
 layout: post
 title: Shapeless
 tags: [shapeless, scala]
+published: false
 ---
 [Shapeless](https://github.com/milessabin/shapeless)
 
