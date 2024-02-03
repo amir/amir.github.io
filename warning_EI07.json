@@ -1,0 +1,16 @@
+[{
+"id": 2,
+"capId": "2.49.0.1.372.0.240122105322.N_Norm001_Weather",
+"type": "yellow; Moderate",
+"severity": "Moderate",
+"certainty": "Likely",
+"level": "Yellow",
+"issued": "2024-01-22T10:53:22-00:00",
+"updated": "2024-01-22T10:53:22-00:00",
+"onset": "2024-01-23T17:00:00-00:00",
+"expiry": "2024-01-24T02:00:00-00:00",
+"headline": "Wind warning for Leinster, Cavan, Monaghan, Cork, Limerick, Tipperary, Waterford, Roscommon",
+"description": "Very strong and gusty southwest to west winds.   Potential impacts:  • Large coastal waves with wave overtopping • Difficult travelling conditions • Debris, loose objects displaced",
+"regions": ["EI07"],
+"status": "Warning"
+}]
